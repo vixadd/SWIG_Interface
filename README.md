@@ -4,11 +4,7 @@ Usage of swig to aid in language wrappers.
 # SWIG
 
 SWIG (Simplified Wrapper and Interface Generator)
-
-
-
 Version: 4.0.0 (in progress)
-
 
 
 Tagline: SWIG is a compiler that integrates C and C++ with languages
@@ -20,43 +16,27 @@ Tagline: SWIG is a compiler that integrates C and C++ with languages
          Ocaml, Modula-3, Common Lisp (CLISP, Allegro CL, CFFI, UFFI)
 
          and Pike. SWIG can also export its parse tree into XML and
-
          Lisp s-expressions.
-
 
 
 SWIG reads annotated C/C++ header files and creates wrapper code (glue
 
 code) in order to make the corresponding C/C++ libraries available to
 
-the listed languages, or to extend C/C++ programs with a scripting
+the listed languages, or to extend C/C++ programs with a scriptinglanguage.
 
-language.
 
 
 
 Up-to-date SWIG related information can be found at
-
-
-
-        http://www.swig.org
-
-
-
-A SWIG FAQ and other hints can be found on the SWIG Wiki:
-
-
-
-        https://github.com/swig/swig/wiki
-
+        http://www.swig.orgA SWIG FAQ and other hints can be found on the SWIG Wiki:
+       https://github.com/swig/swig/wiki
 
 
 License
-
 =======
 
 Please see the LICENSE file for details of the SWIG license. For
-
 further insight into the license including the license of SWIG's
 
 output code, please visit
@@ -66,9 +46,7 @@ output code, please visit
         http://www.swig.org/legal.html
 
 
-
 Release Notes
-
 =============
 
 Please see the CHANGES.current file for a detailed list of bug fixes and
@@ -76,13 +54,11 @@ Please see the CHANGES.current file for a detailed list of bug fixes and
 new features for the current release. The CHANGES file contains bug fixes
 
 and new features for older versions. A summary of changes in each release
-
 can be found in the RELEASENOTES file.
 
 
 
 Documentation
-
 =============
 
 The Doc/Manual directory contains the most recent set of updated
@@ -114,7 +90,6 @@ Documentation is also online at http://www.swig.org/doc.html.
 
 
 Backwards Compatibility
-
 =======================
 
 The developers strive their best to preserve backwards compatibility
@@ -136,9 +111,7 @@ symbol if you have backward compatibility issues and need to use more
 than one version of SWIG.
 
 
-
 Installation
-
 ============
 
 Please read the Doc/Manual/Preface.html#Preface_installation for
@@ -158,7 +131,6 @@ steps are required compared to building from the release tarball.
 
 
 Testing
-
 =======
 
 The typical 'make -k check' can be performed on Unix operating systems.
@@ -167,7 +139,6 @@ Please read Doc/Manual/Preface.html#Preface_testing for details.
 
 
 Examples
-
 ========
 
 The Examples directory contains a variety of examples of using SWIG
@@ -187,7 +158,6 @@ will convert these old style project files into a current solution file.
 
 
 Known Issues
-
 ============
 
 There are minor known bugs, details of which are in the bug tracker, see
@@ -197,7 +167,6 @@ http://www.swig.org/bugs.html.
 
 
 Troubleshooting
-
 ===============
 
 In order to operate correctly, SWIG relies upon a set of library
