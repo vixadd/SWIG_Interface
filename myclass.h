@@ -3,7 +3,7 @@
 class MyClass {
         int myNumber;
 public:
-        MyClass(int number): myNumber(number){}
+        MyClass(int num): myNumber(num){}
         void sayHello() {
                 std::cout << "Hello, my number is:" 
                 << myNumber <<std::endl;
